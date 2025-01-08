@@ -50,8 +50,9 @@ a {
 }
 
 .section-title {
-    margin: 0;
     font-size: 22px;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 .card {
@@ -132,7 +133,6 @@ a {
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -150,6 +150,10 @@ a {
     width: 65%;
     height:614px;
     /* height:100%;  */
+}
+.hebergements h2{
+    padding: 30px 0 0 20px;
+    margin: 0;
 }
 /* Le bloc Hébergements à Marseille    */
 .hebergements-cards{
@@ -199,7 +203,7 @@ a {
 }
 .cardH .card-content{
     
-    height:78px;
+    height:64px;
 }
 .cardH .card-txt{
     height:80%;
@@ -207,7 +211,9 @@ a {
 }
 .cardH .card-rating{
     margin:5px 0 0 0;
-    padding:0 0 0 5px;
+    padding:5px;
+    /* align-items: flex-end;
+    padding-bottom: 10px; */
     }
 .cardH img{
     display:block;
@@ -226,7 +232,7 @@ a {
 .afficherplus{
     width:100%;
     display: block;
-    margin-top: 20px;
+    padding: 10px 0 17px 20px;
     /* border:solid red 2px; */
 }
 /****** Populaires ***********/
@@ -234,6 +240,7 @@ a {
     width: 32%;
     height:614px;
     background-color: white;
+    padding:30px;
 
 }
 
@@ -241,16 +248,23 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
 }
 
+.populaires-cards {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    /* margin-top: 33px; */
+    height:146px;
 }
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 146px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -277,7 +291,8 @@ a {
 
 .populaires-cards .card-rating {
     padding-left: 0;
-    margin-top:45px;
+    align-items: flex-end;
+    padding-bottom: 10px;
     
 }
 
@@ -481,6 +496,7 @@ plus haut en dessous des cards) */
     /* border:solid green 2px; */
     box-sizing: border-box;
     padding:30px;
+    height:559px;
     
 }
 .actMarCards{
@@ -611,6 +627,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
     }
 
     .populaires-cards a {
@@ -631,6 +648,15 @@ footer{
     .filtres div{
         flex-basis:20%;
         margin:5px;
+    }
+
+    .activitesMarseille{
+        /* display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding:30px; */
+        height:390px;
+        
     }
     .actMarCards{
 
@@ -883,21 +909,29 @@ footer{
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: start;
+        align-items: center;
         margin:0;
-        padding: 0;
-        /* object-fit: cover;  */
+        padding: 20px;
+        gap:15px;
         object-position: center bottom;
         box-sizing: border-box;
         width: 100%;
         height:auto;
-        /* height:100%;  */
+        background-color: white !important;
+        
+    }
+    .hebergements h2 {
+        display: flex;
+        width: 100%;
+        padding: 10px 0 0 20px;
+        justify-content: flex-start;
+        
     }
     /* Le bloc Hébergements à Marseille    */
     .hebergements-cards{
         display:flex;
-        width:100%;
-
+        width:95%;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
@@ -907,6 +941,13 @@ footer{
         padding: 0;
         object-fit: cover;
         object-position: 50% center;
+        margin-left: -10px;
+    }
+    .afficherplus {
+        width: 100%;
+        display: block;
+        padding: 20px 0 0 20px;
+        
     }
 
     .cardH{
@@ -949,7 +990,9 @@ footer{
         margin:10px 0;
 
     }
-
+    .populaires{
+        border-radius: 0 !important;
+    }
     .populaires-title {
         display: flex;
         justify-content: space-between;
@@ -975,6 +1018,7 @@ footer{
         /* border:solid green 2px; */
         box-sizing: border-box;
         padding:30px;
+        height: auto;
         
     }
     .actMarCards{
@@ -1042,7 +1086,7 @@ footer{
 
     .cardH .card-subtitle
     {
-        margin: 10px 0 10px 0 !important;
+        margin:0 !important;
     }
     .cardH .card-rating
     {
