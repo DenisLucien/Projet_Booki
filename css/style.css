@@ -172,6 +172,8 @@ a {
     
     width: 28%;
     height:207px;
+    /* margin:10px; */
+    /* border:solid blueviolet 2px; */
     border-radius: 20px 20px 20px 20px;
 }
 .cardH article{
@@ -518,7 +520,7 @@ plus haut en dessous des cards) */
 }
 .cardA h3   {
     margin: 10px 0 0 0;
-    padding: 0 0 0  5px;
+    padding: 0 19px;
     /* border:solid pink 2px; */
     border-radius: 20px 20px 20px 20px;
     font-size: 16px;
@@ -677,10 +679,11 @@ footer{
     }
     .cardA h3   {
         display:inline-flex;
+        text-align: center;
         font-weight: 700;
         /* flex-wrap: nowrap; */
         margin: 10px 0 0 0;
-        padding: 0 0 0  4px;
+        padding: 0;
         /* border:solid pink 2px; */
         border-radius: 20px 20px 20px 20px;
         font-size: 16px;
@@ -965,7 +968,7 @@ footer{
     }
     .card-subtitle{
         /* margin-top:12px !important;     */
-        /* padding-top: 7px 0; */
+        padding-top: 7px 0;
     }   
     .card-rating{
         height:17px;
@@ -1038,8 +1041,8 @@ footer{
     }
     .cardA h3   {
         margin: 20px 0;
-        padding: 0 0 0  5px;
-        /* border:solid pink 2px; */
+        padding: 0 19px;
+        text-align: start;
         border-radius: 20px 20px 20px 20px;
         font-size: 16px;
     }
