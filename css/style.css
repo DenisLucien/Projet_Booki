@@ -92,8 +92,6 @@ a {
     align-items: center;
     padding: 0px 0 0 5px;
     gap: 0px;
-    opacity: 0px;
-    /* border:solid blueviolet 2px; */
     unicode-bidi: isolate;
 }
 .card-rating span{
@@ -174,8 +172,6 @@ a {
     
     width: 28%;
     height:207px;
-    /* margin:10px; */
-    /* border:solid blueviolet 2px; */
     border-radius: 20px 20px 20px 20px;
 }
 .cardH article{
@@ -219,7 +215,6 @@ a {
     display:block;
     object-fit: cover;
     justify-content: center;
-    margin:3px 3px 3px 0    px;
     background-color: white;
     width:100%;
     height: 124px;
@@ -301,8 +296,6 @@ nav {
     margin-left:10px;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: none;
-    /* background-color: yellow; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -383,7 +376,6 @@ nav a:hover
     /* border-collapse: collapse; */
     background-color:white;
     border:solid #F2F2F2 1px;
-    margin:none;
     padding-left:10px;
 
 }
@@ -550,7 +542,6 @@ plus haut en dessous des cards) */
     display:block;
     object-fit: cover;
     justify-content: center;
-    margin:3px 3px 3px 0    px;
     width:100%;
     height: 380px;
     border-radius: 20px 20px 0 0;
@@ -709,7 +700,6 @@ footer{
         display:block;
         object-fit: cover;
         justify-content: center;
-        margin:3px 3px 3px 0    px;
         width:100%;
         height: 200px;
         border-radius: 20px 20px 0 0;
@@ -793,7 +783,6 @@ footer{
         /* border-collapse: collapse; */
         background-color:white;
         border:solid #F2F2F2 1px;
-        margin:none;
         padding-left:10px;
 
     }
@@ -976,11 +965,11 @@ footer{
     }
     .card-subtitle{
         /* margin-top:12px !important;     */
-        padding-top: 7px 0;
+        /* padding-top: 7px 0; */
     }   
     .card-rating{
         height:17px;
-        padding: 0 0 0 0 3px;
+        /* padding: 0 0  0 3px; */
         margin: 0;
     }
     .populaires {
@@ -1069,7 +1058,6 @@ footer{
         display:block;
         object-fit: cover;
         justify-content: center;
-        margin:3px 3px 3px 0    px;
         width:100%;
         height: 200px;
         border-radius: 20px 20px 0 0;
