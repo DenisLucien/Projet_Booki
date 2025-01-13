@@ -5,8 +5,6 @@
 * {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    /
-    
 }
 
 :root {
@@ -968,7 +966,7 @@ footer{
     }
     .card-subtitle{
         /* margin-top:12px !important;     */
-        padding-top: 7px 0;
+        /* padding-top: 7px 0; */
     }   
     .card-rating{
         height:17px;
