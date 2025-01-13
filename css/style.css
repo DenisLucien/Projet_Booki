@@ -5,8 +5,7 @@
 * {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    /* min-width:0;
-    min-height:0; */
+    /
     
 }
 
@@ -25,6 +24,8 @@
 body {
     display: flex;
     justify-content: center;
+    max-width: 1440px;
+ 
 }
 
 .main-container {
@@ -668,7 +669,6 @@ footer{
     .cardA{
         width:25%;
         height:270px;
-        padding:8px;
         /* overflow:auto; */
         /* border:solid red 2px; */
         border-radius: 20px 20px 20px 20px;
