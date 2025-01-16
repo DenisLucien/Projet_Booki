@@ -684,7 +684,7 @@ footer{
         text-align: center;
         font-weight: 700;
         /* flex-wrap: nowrap; */
-        margin: 10px 0 0 0;
+        margin:0;
         padding: 0;
         /* border:solid pink 2px; */
         border-radius: 20px 20px 20px 20px;
@@ -714,6 +714,16 @@ footer{
         width:100%;
         height:100%;
     }
+    .carAtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30pxgi;
+        padding:20px 19px
+    }
+    .carAtitle h3{
+        text-align: start;
+    }
     .card-subtitle{
         padding:0;
     }
@@ -721,6 +731,9 @@ footer{
         font-size: 14px;
         font-weight: 400;
     }
+    
+
+    
 }
 
 /* Small devices (phones, less than 768px) */
@@ -844,6 +857,7 @@ footer{
     }
     .filterDiv span{
      margin-right: 0;
+     font-size: 14px;
     }
     .filterDiv i,span{
         margin:0;
