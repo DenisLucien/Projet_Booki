@@ -913,20 +913,32 @@ footer{
         margin:0;padding: 0 15px;
         gap:0;
         text-align:center;
+
+        padding-top:0px;
+        padding-bottom:10px;margin:0;
+        border-top:none;
+        border-bottom:solid;
+        border-bottom-color:#F2F2F2;
+        border-width: 2px;
+        text-align: center;
+        border-spacing: 10px;
     }
     /* nav ::placeholder{
         justify-content: center;
     } */
     nav a:hover
-    {
+    {   
+
         padding-top:0px;
         padding-bottom:10px;margin:0;
         border-top:none;
         border-bottom:solid;
         border-bottom-color:#0065FC;
-        color:#0065FC;
+        border-width: 2px;
         text-align: center;
         border-spacing: 10px;
+        
+        
     }
     .hebergements-and-populaires {
         display: flex;
