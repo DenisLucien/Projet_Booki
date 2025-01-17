@@ -606,7 +606,7 @@ footer{
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 30px;
         height:auto;
     }
 
@@ -727,7 +727,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        /* height: 30pxgi; */
+        height: 30px;
         padding:20px 19px
     }
     .carAtitle h3{
@@ -1121,6 +1121,10 @@ footer{
         height: 200px;
         border-radius: 20px 20px 0 0;
         
+    }
+    .carAtitle {
+        
+        justify-content: flex-start;
     }
     footer{
 
