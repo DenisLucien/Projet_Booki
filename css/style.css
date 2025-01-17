@@ -727,7 +727,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 30pxgi;
+        /* height: 30pxgi; */
         padding:20px 19px
     }
     .carAtitle h3{
@@ -793,7 +793,7 @@ footer{
         justify-content: center;
         width:95%;
         max-width: 335px;
-        min-width: none;
+        /* min-width: none; */
         border: solid 1px #F2F2F2;
         border-radius: 15px;
     }
